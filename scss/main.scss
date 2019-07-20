@@ -1,9 +1,12 @@
-@import "config" * {
+@import "config";
+@import "menu";
+
+* {
   box-sizing: border-box;
 }
 
 body {
-  @include background();
+  @include background;
   background: $primary-color;
   color: #fff;
   height: 100%;
@@ -36,7 +39,7 @@ a {
 header {
   position: fixed;
   z-index: 2;
-  widows: 100%;
+  width: 100%;
 }
 
 .text-secondary {
