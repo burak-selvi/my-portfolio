@@ -404,6 +404,7 @@ main#home h1 {
   main .lg-heading {
     line-height: 1;
     margin-bottom: 1rem;
+    font-size: 4rem;
   }
   ul.menu-nav,
   div.menu-branding {
@@ -441,6 +442,9 @@ main#home h1 {
   .projects {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
+  }
+  .boxes div {
+    font-size: 1rem;
   }
 }
 
